@@ -24,7 +24,7 @@ jobs:
           platforms: linux/amd64
           provenance: false
           target: prod
-          tags: ${{ github.repository }}:prod
+          tags: ghcr.io/${{ github.repository }}:prod
 permissions:
   contents: read
   packages: write
