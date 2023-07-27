@@ -31,7 +31,7 @@ const escapeHtml = (text) => text.replaceAll('<', '&lt;').replaceAll('>', '&gt;'
 
 const CONTENT_DIR = './data';
 
-cron.schedule('*/5 * * * * *', () => {
+cron.schedule('* * * * *', () => {
     const nowGMT3 = moment().utcOffset(180);
     const date = nowGMT3.format('YYYYMMDD');
     const currentTimePoint = nowGMT3.format('HHmm');

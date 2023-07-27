@@ -25,6 +25,3 @@ jobs:
           provenance: false
           target: prod
           tags: ghcr.io/${{ github.repository }}:prod
-permissions:
-  contents: read
-  packages: write
