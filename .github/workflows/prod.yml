@@ -25,3 +25,6 @@ jobs:
           provenance: false
           target: prod
           tags: ${{ github.repository }}:prod
+permissions:
+  contents: read
+  packages: write
